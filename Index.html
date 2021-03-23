@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>   
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale = 1">
+
+    <head> 
+        <title> Synacor Weather </title>
+
+        <style> 
+        body {
+
+            background-color:cornflowerblue;
+        }
+
+        .header {
+            font-family: sans-serif;
+            color:azure;
+            text-align: center;
+            padding-top: 30px;
+            font-size: 50px;
+            margin: auto;
+        }
+
+
+        .city{
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            padding-top: 30px;
+            font-size: 55px;
+            margin:auto;
+        }
+
+        .info {
+            font-family: sans-serif;
+            color:aqua;
+            text-align: center;
+            font-size: 45px;
+        }
+
+
+        </style>
+
+    </head>
+    
+    <body> 
+        <script src="Project.js"> </script>
+
+        <div id="header" class="header"> Current Conditions For </div>
+
+        <h1 id="city" class="city"></h1>
+  
+        <p class="info"> 
+         <span id="weather"></span><span>&#8457;</span><br/>
+
+         <img width="150" id="image" src="" alt=" Place Icon Here"> <br/>
+
+         <span id="description"></span>
+        </p>
+
+
+    
+
+    </body>
+
+
+</html>
+
